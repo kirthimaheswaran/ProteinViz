@@ -1,0 +1,4 @@
+Protein Size Analysis
+=====================
+
+Maximum Distance: 136.26 Å

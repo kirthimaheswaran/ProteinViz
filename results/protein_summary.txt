@@ -1,0 +1,45 @@
+
+========================================
+ProteinViz Protein Summary
+========================================
+
+Protein ID          : AChE
+
+Number of Models    : 1
+Number of Chains    : 4
+Protein Residues    : 1069
+Number of Atoms     : 9710
+
+Most Common Amino Acid
+-----------------------
+LEU (112 residues)
+
+Chain IDs
+---------
+A
+B
+C
+D
+
+Amino Acid Composition
+----------------------
+LEU   : 112
+VAL   : 104
+ALA   : 102
+GLY   : 102
+PRO   : 93
+ARG   : 75
+GLU   : 60
+SER   : 60
+PHE   : 54
+ASP   : 47
+THR   : 45
+GLN   : 40
+TYR   : 38
+ASN   : 32
+TRP   : 26
+HIS   : 22
+ILE   : 18
+MET   : 14
+LYS   : 13
+CYS   : 12
