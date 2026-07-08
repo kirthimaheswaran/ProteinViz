@@ -32,12 +32,13 @@ threshold = 8.0
 
 # Calculate contacts
 for i in range(n):
-    for j in range(n):
+    for j in range(i, n):
 
         distance = ca_atoms[i] - ca_atoms[j]
 
         if distance <= threshold:
             contact_map[i, j] = 1
+            contact_map[j, i] = 1
 
 # Create figures folder
 os.makedirs("figures", exist_ok=True)
