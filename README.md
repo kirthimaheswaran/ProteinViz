@@ -1,5 +1,9 @@
 # 🧬 ProteinViz
 
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![Biopython](https://img.shields.io/badge/Biopython-Latest-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 A Python-based structural bioinformatics toolkit for analyzing protein structures from the Protein Data Bank (PDB).
 
 ---
@@ -12,6 +16,27 @@ The project performs structural analysis on Acetylcholinesterase (PDB ID: 4M0E) 
 
 ---
 
+## 🔄 Workflow
+
+```text
+PDB File
+    │
+    ▼
+Protein Parsing
+    │
+    ▼
+Chain Analysis
+    │
+    ▼
+Composition Analysis
+    │
+    ▼
+Visualization
+    │
+    ▼
+Reports & CSV Files
+
+---
 ## ✨ Features
 
 - Parse PDB protein structures
@@ -43,18 +68,35 @@ ProteinViz/
 └── LICENSE
 ```
 
+
+---
+
+### 3. Project Statistics
+
+Place this **after Project Structure**.
+
+```markdown
+## 📈 Project Statistics
+
+- Python scripts: 15
+- Figures generated: 4
+- CSV reports: 4
+- Text reports: 4
+- Jupyter Notebook included: ✅
+
 ---
 
 ## 🛠 Technologies Used
 
-- Python
-- Biopython
-- Pandas
-- NumPy
-- Matplotlib
-- Jupyter Notebook
-- Git & GitHub
-
+| Library | Purpose |
+|---------|---------|
+| Python | Core programming language |
+| Biopython | Parse and analyze PDB structures |
+| Pandas | Data analysis and CSV generation |
+| NumPy | Numerical computations |
+| Matplotlib | Scientific visualizations |
+| Jupyter Notebook | Interactive analysis |
+| Git & GitHub | Version control and collaboration |
 ---
 
 ## 📊 Generated Outputs
@@ -125,6 +167,11 @@ python3 scripts/contact_map.py
 - Automated analysis pipeline
 
 ---
+## 🙏 Acknowledgements
+
+- Protein Data Bank (PDB) for providing protein structure data.
+- Biopython developers for the structural biology toolkit.
+- Matplotlib and Pandas communities for visualization and data analysis libraries.
 
 ## 📄 License
 
